@@ -9,13 +9,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=00E676&center=true&vCenter=true&width=600&lines=Arduino+Uno+Microcontroller;Embedded+Systems+Learning;Hardware+Meets+Code" />
 </p>
 
-
-</p>
-
-<p align="center">
-  <b>Arduino Uno • Embedded Systems • EEE Projects</b><br>
-</p>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=720&lines=Arduino+Uno+Based+Real+World+Projects;Embedded+Systems+%26+Electronics;Learning+by+Building+Hardware;Consistency+Over+Motivation" />
 </p>
