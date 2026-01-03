@@ -13,76 +13,34 @@ Microcontroller logic
 Hardware–software integration
 
 Practical engineering concepts
+🔧 About Arduino Uno
+Arduino Uno is a widely used open-source microcontroller development board based on the ATmega328P.
+It is designed for beginners and professionals to develop, test, and deploy embedded systems and electronics projects efficiently.
 
-🩺 Health Monitoring System Using Arduino
-<p align="center"> <img src="images/health-monitoring.jpg" width="90%"/> </p>
-🔹 A basic health monitoring system that displays heart rate (BPM) and SpO₂ values
-🔹 Uses Arduino Uno with LCD / OLED display
-🔹 Designed for biomedical & embedded systems learning
+The board provides a simple hardware and software interface, making it ideal for learning microcontroller fundamentals, sensor interfacing, and real-world prototyping.
 
-Concepts Used
+Key Highlights
+Based on ATmega328P microcontroller
 
-Sensor data handling
+14 digital I/O pins (6 PWM capable)
 
-Display interfacing
+6 analog input pins
 
-Real-time monitoring
+16 MHz crystal oscillator
 
-📡 RADAR with Arduino
-<p align="center"> <img src="images/arduino-radar.jpg" width="90%"/> </p>
-🔹 RADAR-like object detection system
-🔹 Uses ultrasonic sensor + servo motor
-🔹 Measures distance by scanning different angles
+USB interface for programming and power
 
-Concepts Used
+Supports Embedded C/C++ via Arduino IDE
 
-Distance measurement
+Why Arduino Uno?
+Arduino Uno is commonly used in:
 
-Servo control
+Educational and academic projects
 
-Embedded logic
+Rapid prototyping of electronic systems
 
-🤖 Robotic Code for Arduino Uno
-<p align="center"> <img src="images/robotic-car.jpg" width="90%"/> </p>
-🔹 Core robotic control logic for Arduino-based robots
-🔹 Controls forward, backward, left, and right movement
-🔹 Used in mobile robot applications
+Robotics and automation applications
 
-Concepts Used
+IoT and sensor-based systems
 
-Motor driver control
-
-Directional logic
-
-Automation basics
-
-⚡ Transmission Line Fault Location
-with Distance Indication
-<p align="center"> <img src="images/transmission-line.jpg" width="90%"/> </p>
-🔹 Detects faults in electrical transmission lines
-🔹 Estimates distance to fault location
-🔹 Educational model for power systems engineering
-
-Concepts Used
-
-Fault detection
-
-Electrical system monitoring
-
-Alert indication (LED / buzzer)
-
-🧠 Technologies & Tools
-<p align="center"> <img src="https://skillicons.dev/icons?i=arduino,c,cpp,git,github&theme=dark"/> </p>
-🎯 Learning Outcome
-✔ Strong understanding of Arduino Uno
-✔ Hands-on experience with sensors & actuators
-✔ Improved embedded C/C++ programming
-✔ Real-world engineering exposure
-
-🐍 Activity & Consistency
-<p align="center"> <img src="https://raw.githubusercontent.com/lshariprasad/lshariprasad/output/github-contribution-grid-snake-dark.svg" /> </p>
-🌐 Connect With Me
-<p align="center"> <a href="https://github.com/lshariprasad"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45"/> </a> &nbsp;&nbsp; <a href="https://leetcode.com/u/ls_hariprasad/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg" width="45"/> </a> </p>
-🧠 Final Note
-This repository represents learning through building —
-every project improves discipline, logic, and engineering mindset.
+This repository contains Arduino Uno source codes developed to understand hardware–software interaction, control logic, and embedded programming concepts., logic, and engineering mindset.
