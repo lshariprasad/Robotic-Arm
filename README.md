@@ -1,7 +1,10 @@
 # 🔧 Arduino Uno Projects
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="180"/>
+  <p align="center">
+  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="220"/>
+</p>
+
 </p>
 
 <p align="center">
