@@ -1,8 +1,9 @@
 # 🔧 Arduino Uno Projects
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="180"/>
+  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="220"/>
 </p>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=00E676&center=true&vCenter=true&width=600&lines=Arduino+Uno+Microcontroller;Embedded+Systems+Learning;Hardware+Meets+Code" />
@@ -13,7 +14,6 @@
 
 <p align="center">
   <b>Arduino Uno • Embedded Systems • EEE Projects</b><br>
-  Designed & Developed by <b>HARI PRASAD L S</b>
 </p>
 
 <p align="center">
