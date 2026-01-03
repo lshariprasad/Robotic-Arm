@@ -1,7 +1,7 @@
 # 🔧 Arduino Uno Projects
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="240"/>
+  <img src="assets/arduino.gif" width="220"/>
 </p>
 
 
