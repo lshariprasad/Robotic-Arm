@@ -14,11 +14,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=700&color=4FC3F7&center=true&vCenter=true&width=620&lines=Real+World+Arduino+Projects;Electronics+%26+Embedded+Design;Learning+Through+Hardware" />
 </p>
 
-<!-- Typing Animation – Green -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=720&lines=Arduino+Uno+Based+Real+World+Projects;Embedded+Systems+%26+Electronics;Learning+by+Building+Hardware;Consistency+Over+Motivation" />
-</p>
-
 ---
 
 ## 🌌 <span style="color:#4FC3F7;">About This Repository</span>
