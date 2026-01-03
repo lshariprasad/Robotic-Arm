@@ -1,46 +1,76 @@
-🔧 Arduino Uno Projects
-<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="180"/> </p> <p align="center"> <b>Arduino Uno • Embedded Systems • EEE Projects</b><br> Designed & Developed by <b>HARI PRASAD L S</b> </p> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=700&lines=Arduino+Uno+Based+Real+World+Projects;Embedded+Systems+and+Electronics;Learning+by+Building+Hardware" /> </p>
-🌌 About This Repository
-⚡ This repository contains Arduino Uno–based projects focused on
-real-world applications, electronics fundamentals, and embedded systems learning.
+# 🔧 Arduino Uno Projects
 
-🧠 Each project is built to understand:
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="180"/>
+</p>
 
-Sensor interfacing
+<p align="center">
+  <b>Arduino Uno • Embedded Systems • EEE Projects</b><br>
+  Designed & Developed by <b>HARI PRASAD L S</b>
+</p>
 
-Microcontroller logic
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=720&lines=Arduino+Uno+Based+Real+World+Projects;Embedded+Systems+%26+Electronics;Learning+by+Building+Hardware;Consistency+Over+Motivation" />
+</p>
 
-Hardware–software integration
+---
 
-Practical engineering concepts
-🔧 About Arduino Uno
-Arduino Uno is a widely used open-source microcontroller development board based on the ATmega328P.
-It is designed for beginners and professionals to develop, test, and deploy embedded systems and electronics projects efficiently.
+## 🌌 About This Repository
 
-The board provides a simple hardware and software interface, making it ideal for learning microcontroller fundamentals, sensor interfacing, and real-world prototyping.
+⚡ This repository contains **Arduino Uno–based projects** focused on  
+**real-world applications**, **electronics fundamentals**, and **embedded systems learning**.
 
-Key Highlights
-Based on ATmega328P microcontroller
+🧠 Each project is built to strengthen understanding of:
+- 🔌 Sensor interfacing  
+- 🧩 Microcontroller logic  
+- 🔄 Hardware–software integration  
+- 🛠️ Practical engineering concepts  
 
-14 digital I/O pins (6 PWM capable)
+> *Learning doesn’t happen by reading — it happens by building.*
 
-6 analog input pins
+---
 
-16 MHz crystal oscillator
+## 🔧 About Arduino Uno
 
-USB interface for programming and power
+🟦 **Arduino Uno** is a widely used **open-source microcontroller development board**  
+based on the powerful **ATmega328P**.
 
-Supports Embedded C/C++ via Arduino IDE
+It is designed for both **beginners and professionals** to **develop, test, and prototype**
+embedded systems efficiently with minimal setup.
 
-Why Arduino Uno?
-Arduino Uno is commonly used in:
+✨ The board offers a simple hardware and software ecosystem, making it ideal for:
+- learning microcontroller fundamentals  
+- experimenting with sensors & actuators  
+- building real-world electronic prototypes  
 
-Educational and academic projects
+---
 
-Rapid prototyping of electronic systems
+### ⚙️ Key Highlights
 
-Robotics and automation applications
+- 🧠 **ATmega328P microcontroller**
+- 🔢 **14 Digital I/O pins** (6 PWM capable)
+- 📊 **6 Analog input pins**
+- ⏱️ **16 MHz crystal oscillator**
+- 🔌 **USB interface** for programming & power
+- 💻 Supports **Embedded C / C++** via Arduino IDE
 
-IoT and sensor-based systems
+---
 
-This repository contains Arduino Uno source codes developed to understand hardware–software interaction, control logic, and embedded programming concepts., logic, and engineering mindset.
+## 🚀 Why Arduino Uno?
+
+Arduino Uno is widely used in:
+
+- 🎓 Educational & academic projects  
+- 🧪 Rapid prototyping of electronic systems  
+- 🤖 Robotics & automation applications  
+- 🌐 IoT & sensor-based systems  
+
+This repository contains **Arduino Uno source codes** developed to understand  
+**hardware–software interaction**, **control logic**, and **engineering mindset**  
+through hands-on implementation.
+
+---
+
+<p align="center">
+  ⚡ <i>Build. Break. Learn. Repeat.</i> ⚡
+</p>
