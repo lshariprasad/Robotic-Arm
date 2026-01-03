@@ -1,9 +1,9 @@
 # 🔧 Arduino Uno Projects
 
 <p align="center">
-  <p align="center">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="220"/>
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="240"/>
 </p>
+
 
 </p>
 
