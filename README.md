@@ -1,7 +1,11 @@
 # 🔧 Arduino Uno Projects
 
 <p align="center">
-  <img src="assets/arduino.gif" width="220"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="180"/>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=00E676&center=true&vCenter=true&width=600&lines=Arduino+Uno+Microcontroller;Embedded+Systems+Learning;Hardware+Meets+Code" />
 </p>
 
 
