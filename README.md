@@ -1,163 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Arduino Uno Projects - lshariprasad</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Roboto, Arial, sans-serif;
-      background-color: #0f172a;
-      color: #e5e7eb;
-      margin: 0;
-      padding: 0;
-    }
+<meta charset="UTF-8">
+<title>Arduino Uno Projects | lshariprasad</title>
 
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 30px 20px;
-    }
+<style>
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  margin: 0;
+}
 
-    .title {
-      text-align: center;
-      font-size: 2.4em;
-      font-weight: bold;
-      color: #38bdf8;
-    }
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
 
-    .subtitle {
-      text-align: center;
-      color: #94a3b8;
-      margin-bottom: 40px;
-      font-size: 1.1em;
-    }
+h1 {
+  text-align: center;
+  color: #38bdf8;
+  font-size: 2.5em;
+}
 
-    .card {
-      background: #020617;
-      border-left: 5px solid #38bdf8;
-      border-radius: 12px;
-      padding: 20px 25px;
-      margin-bottom: 25px;
-      box-shadow: 0 0 12px rgba(0,0,0,0.4);
-    }
+.subtitle {
+  text-align: center;
+  color: #94a3b8;
+  margin-bottom: 50px;
+}
 
-    .card h2 {
-      margin-top: 0;
-      color: #22d3ee;
-      font-size: 1.4em;
-    }
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 25px;
+  background: #020617;
+  border-radius: 14px;
+  padding: 25px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
 
-    .meta {
-      color: #94a3b8;
-      font-size: 0.9em;
-      margin-bottom: 10px;
-    }
+.project img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #1e293b;
+}
 
-    ul {
-      padding-left: 20px;
-    }
+.project h2 {
+  color: #22d3ee;
+  margin-top: 0;
+}
 
-    li {
-      margin-bottom: 8px;
-      line-height: 1.6;
-    }
+.project p {
+  line-height: 1.6;
+  color: #cbd5f5;
+}
 
-    .footer {
-      text-align: center;
-      margin-top: 50px;
-      color: #64748b;
-      font-size: 0.9em;
-    }
+.tags {
+  margin-top: 10px;
+}
 
-    .highlight {
-      color: #38bdf8;
-      font-weight: 600;
-    }
-  </style>
+.tag {
+  display: inline-block;
+  background: #1e293b;
+  color: #38bdf8;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.footer {
+  text-align: center;
+  color: #64748b;
+  margin-top: 60px;
+  font-size: 0.9em;
+}
+</style>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
 
-    <div class="title">Arduino Uno Projects</div>
-    <div class="subtitle">
-      Developed by <span class="highlight">lshariprasad</span><br>
-      Embedded Systems • Arduino • EEE Projects
+<h1>Arduino Uno Projects</h1>
+<div class="subtitle">
+Developed by <b>lshariprasad</b><br>
+Embedded Systems • Arduino • EEE
+</div>
+
+<!-- PROJECT 1 -->
+<div class="project">
+  <img src="images/health-monitoring.jpg" alt="Health Monitoring System">
+  <div>
+    <h2>Health Monitoring System Using Arduino</h2>
+    <p>
+      A basic health monitoring system that displays heart rate (BPM) and SpO₂
+      values on an LCD/OLED screen. Designed to demonstrate biomedical monitoring
+      using Arduino Uno.
+    </p>
+    <div class="tags">
+      <span class="tag">Arduino Uno</span>
+      <span class="tag">Health Tech</span>
+      <span class="tag">LCD Display</span>
     </div>
-
-    <!-- Health Monitoring System -->
-    <div class="card">
-      <h2>Health Monitoring System Using Arduino</h2>
-      <div class="meta">Last updated: 3 days ago</div>
-      <p>
-        This project implements a basic health monitoring system using Arduino Uno
-        to display physiological parameters such as heart rate (BPM) and SpO₂ levels
-        (sensor-based or simulated). The system demonstrates low-cost biomedical
-        monitoring using embedded hardware.
-      </p>
-      <ul>
-        <li>Arduino Uno as control unit</li>
-        <li>Real-time health parameter display</li>
-        <li>LCD / OLED based visualization</li>
-        <li>Educational biomedical application</li>
-      </ul>
-    </div>
-
-    <!-- RADAR -->
-    <div class="card">
-      <h2>RADAR with Arduino</h2>
-      <div class="meta">Last updated: Last month</div>
-      <p>
-        A RADAR-like object detection system built using Arduino Uno,
-        an ultrasonic sensor, and a servo motor. The system scans an area
-        and detects objects by measuring distance at different angles.
-      </p>
-      <ul>
-        <li>Ultrasonic sensor based distance detection</li>
-        <li>Servo motor scanning mechanism</li>
-        <li>Real-time output visualization</li>
-        <li>RADAR simulation for learning</li>
-      </ul>
-    </div>
-
-    <!-- Robotic Code -->
-    <div class="card">
-      <h2>Robotic Code for Arduino Uno</h2>
-      <div class="meta">File: Robotic_Code_For_ArduinoUno.ino</div>
-      <p>
-        This module contains core robotic control logic for Arduino Uno,
-        including motor driving, directional movement, and basic control routines.
-        Suitable for beginner-level robotics applications.
-      </p>
-      <ul>
-        <li>Motor driver interfacing</li>
-        <li>Directional control logic</li>
-        <li>Modular and reusable code</li>
-        <li>Mobile robot applications</li>
-      </ul>
-    </div>
-
-    <!-- Transmission Line Fault -->
-    <div class="card">
-      <h2>Transmission Line Fault Location with Distance Indication</h2>
-      <div class="meta">Last updated: 4 days ago</div>
-      <p>
-        This project detects faults in electrical transmission lines and estimates
-        the distance to the fault location using Arduino Uno. It simulates real-world
-        fault scenarios and provides visual or audible alerts.
-      </p>
-      <ul>
-        <li>Fault detection logic</li>
-        <li>Distance indication output</li>
-        <li>LED and buzzer alerts</li>
-        <li>Power system education project</li>
-      </ul>
-    </div>
-
-    <div class="footer">
-      © 2026 lshariprasad • Arduino Uno Embedded Projects
-    </div>
-
   </div>
+</div>
+
+<!-- PROJECT 2 -->
+<div class="project">
+  <img src="images/arduino-radar.jpg" alt="Arduino RADAR">
+  <div>
+    <h2>RADAR with Arduino</h2>
+    <p>
+      A RADAR-style object detection system using an ultrasonic sensor and servo
+      motor. Objects are detected by scanning angles and measuring distances.
+    </p>
+    <div class="tags">
+      <span class="tag">Ultrasonic Sensor</span>
+      <span class="tag">Servo Motor</span>
+      <span class="tag">RADAR Simulation</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 3 -->
+<div class="project">
+  <img src="images/robotic-car.jpg" alt="Arduino Robot">
+  <div>
+    <h2>Robotic Code for Arduino Uno</h2>
+    <p>
+      Core robotic control program for Arduino-based robots, including motor
+      control, movement logic, and direction handling.
+    </p>
+    <div class="tags">
+      <span class="tag">Robotics</span>
+      <span class="tag">Motor Driver</span>
+      <span class="tag">Automation</span>
+    </div>
+  </div>
+</div>
+
+<!-- PROJECT 4 -->
+<div class="project">
+  <img src="images/transmission-line.jpg" alt="Transmission Line Fault Project">
+  <div>
+    <h2>Transmission Line Fault Location with Distance Indication</h2>
+    <p>
+      Detects transmission line faults and estimates distance to the fault.
+      Designed for power system education using Arduino Uno.
+    </p>
+    <div class="tags">
+      <span class="tag">Power Systems</span>
+      <span class="tag">Fault Detection</span>
+      <span class="tag">Arduino Uno</span>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+© 2026 lshariprasad | Arduino Uno Visual Projects
+</div>
+
+</div>
 </body>
 </html>
