@@ -1,168 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Arduino Uno Projects | lshariprasad</title>
+🔧 Arduino Uno Projects
+<p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Arduino_Uno_-_R3.jpg" width="180"/> </p> <p align="center"> <b>Arduino Uno • Embedded Systems • EEE Projects</b><br> Designed & Developed by <b>HARI PRASAD L S</b> </p> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=700&lines=Arduino+Uno+Based+Real+World+Projects;Embedded+Systems+and+Electronics;Learning+by+Building+Hardware" /> </p>
+🌌 About This Repository
+⚡ This repository contains Arduino Uno–based projects focused on
+real-world applications, electronics fundamentals, and embedded systems learning.
 
-<style>
-body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
-  margin: 0;
-}
+🧠 Each project is built to understand:
 
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 30px 20px;
-}
+Sensor interfacing
 
-h1 {
-  text-align: center;
-  color: #38bdf8;
-  font-size: 2.5em;
-}
+Microcontroller logic
 
-.subtitle {
-  text-align: center;
-  color: #94a3b8;
-  margin-bottom: 50px;
-}
+Hardware–software integration
 
-.project {
-  display: grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap: 25px;
-  background: #020617;
-  border-radius: 14px;
-  padding: 25px;
-  margin-bottom: 40px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.4);
-}
+Practical engineering concepts
 
-.project img {
-  width: 100%;
-  border-radius: 10px;
-  border: 2px solid #1e293b;
-}
+🩺 Health Monitoring System Using Arduino
+<p align="center"> <img src="images/health-monitoring.jpg" width="90%"/> </p>
+🔹 A basic health monitoring system that displays heart rate (BPM) and SpO₂ values
+🔹 Uses Arduino Uno with LCD / OLED display
+🔹 Designed for biomedical & embedded systems learning
 
-.project h2 {
-  color: #22d3ee;
-  margin-top: 0;
-}
+Concepts Used
 
-.project p {
-  line-height: 1.6;
-  color: #cbd5f5;
-}
+Sensor data handling
 
-.tags {
-  margin-top: 10px;
-}
+Display interfacing
 
-.tag {
-  display: inline-block;
-  background: #1e293b;
-  color: #38bdf8;
-  padding: 5px 10px;
-  border-radius: 6px;
-  font-size: 0.85em;
-  margin-right: 6px;
-  margin-bottom: 6px;
-}
+Real-time monitoring
 
-.footer {
-  text-align: center;
-  color: #64748b;
-  margin-top: 60px;
-  font-size: 0.9em;
-}
-</style>
-</head>
+📡 RADAR with Arduino
+<p align="center"> <img src="images/arduino-radar.jpg" width="90%"/> </p>
+🔹 RADAR-like object detection system
+🔹 Uses ultrasonic sensor + servo motor
+🔹 Measures distance by scanning different angles
 
-<body>
-<div class="container">
+Concepts Used
 
-<h1>Arduino Uno Projects</h1>
-<div class="subtitle">
-Developed by <b>lshariprasad</b><br>
-Embedded Systems • Arduino • EEE
-</div>
+Distance measurement
 
-<!-- PROJECT 1 -->
-<div class="project">
-  <img src="images/health-monitoring.jpg" alt="Health Monitoring System">
-  <div>
-    <h2>Health Monitoring System Using Arduino</h2>
-    <p>
-      A basic health monitoring system that displays heart rate (BPM) and SpO₂
-      values on an LCD/OLED screen. Designed to demonstrate biomedical monitoring
-      using Arduino Uno.
-    </p>
-    <div class="tags">
-      <span class="tag">Arduino Uno</span>
-      <span class="tag">Health Tech</span>
-      <span class="tag">LCD Display</span>
-    </div>
-  </div>
-</div>
+Servo control
 
-<!-- PROJECT 2 -->
-<div class="project">
-  <img src="images/arduino-radar.jpg" alt="Arduino RADAR">
-  <div>
-    <h2>RADAR with Arduino</h2>
-    <p>
-      A RADAR-style object detection system using an ultrasonic sensor and servo
-      motor. Objects are detected by scanning angles and measuring distances.
-    </p>
-    <div class="tags">
-      <span class="tag">Ultrasonic Sensor</span>
-      <span class="tag">Servo Motor</span>
-      <span class="tag">RADAR Simulation</span>
-    </div>
-  </div>
-</div>
+Embedded logic
 
-<!-- PROJECT 3 -->
-<div class="project">
-  <img src="images/robotic-car.jpg" alt="Arduino Robot">
-  <div>
-    <h2>Robotic Code for Arduino Uno</h2>
-    <p>
-      Core robotic control program for Arduino-based robots, including motor
-      control, movement logic, and direction handling.
-    </p>
-    <div class="tags">
-      <span class="tag">Robotics</span>
-      <span class="tag">Motor Driver</span>
-      <span class="tag">Automation</span>
-    </div>
-  </div>
-</div>
+🤖 Robotic Code for Arduino Uno
+<p align="center"> <img src="images/robotic-car.jpg" width="90%"/> </p>
+🔹 Core robotic control logic for Arduino-based robots
+🔹 Controls forward, backward, left, and right movement
+🔹 Used in mobile robot applications
 
-<!-- PROJECT 4 -->
-<div class="project">
-  <img src="images/transmission-line.jpg" alt="Transmission Line Fault Project">
-  <div>
-    <h2>Transmission Line Fault Location with Distance Indication</h2>
-    <p>
-      Detects transmission line faults and estimates distance to the fault.
-      Designed for power system education using Arduino Uno.
-    </p>
-    <div class="tags">
-      <span class="tag">Power Systems</span>
-      <span class="tag">Fault Detection</span>
-      <span class="tag">Arduino Uno</span>
-    </div>
-  </div>
-</div>
+Concepts Used
 
-<div class="footer">
-© 2026 lshariprasad | Arduino Uno Visual Projects
-</div>
+Motor driver control
 
-</div>
-</body>
-</html>
+Directional logic
+
+Automation basics
+
+⚡ Transmission Line Fault Location
+with Distance Indication
+<p align="center"> <img src="images/transmission-line.jpg" width="90%"/> </p>
+🔹 Detects faults in electrical transmission lines
+🔹 Estimates distance to fault location
+🔹 Educational model for power systems engineering
+
+Concepts Used
+
+Fault detection
+
+Electrical system monitoring
+
+Alert indication (LED / buzzer)
+
+🧠 Technologies & Tools
+<p align="center"> <img src="https://skillicons.dev/icons?i=arduino,c,cpp,git,github&theme=dark"/> </p>
+🎯 Learning Outcome
+✔ Strong understanding of Arduino Uno
+✔ Hands-on experience with sensors & actuators
+✔ Improved embedded C/C++ programming
+✔ Real-world engineering exposure
+
+🐍 Activity & Consistency
+<p align="center"> <img src="https://raw.githubusercontent.com/lshariprasad/lshariprasad/output/github-contribution-grid-snake-dark.svg" /> </p>
+🌐 Connect With Me
+<p align="center"> <a href="https://github.com/lshariprasad"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45"/> </a> &nbsp;&nbsp; <a href="https://leetcode.com/u/ls_hariprasad/"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/leetcode/leetcode-original.svg" width="45"/> </a> </p>
+🧠 Final Note
+This repository represents learning through building —
+every project improves discipline, logic, and engineering mindset.
