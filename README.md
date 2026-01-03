@@ -4,18 +4,24 @@
   <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="220"/>
 </p>
 
-
+<!-- Typing Animation – Light Green -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=800&color=00E676&center=true&vCenter=true&width=600&lines=Arduino+Uno+Microcontroller;Embedded+Systems+Learning;Hardware+Meets+Code" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=700&color=00E676&center=true&vCenter=true&width=620&lines=Arduino+Uno+Microcontroller;Embedded+Systems+Learning;Hardware+Meets+Code" />
 </p>
 
+<!-- Typing Animation – Light Blue -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=700&color=4FC3F7&center=true&vCenter=true&width=620&lines=Real+World+Arduino+Projects;Electronics+%26+Embedded+Design;Learning+Through+Hardware" />
+</p>
+
+<!-- Typing Animation – Green -->
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00E676&center=true&vCenter=true&width=720&lines=Arduino+Uno+Based+Real+World+Projects;Embedded+Systems+%26+Electronics;Learning+by+Building+Hardware;Consistency+Over+Motivation" />
 </p>
 
 ---
 
-## 🌌 About This Repository
+## 🌌 <span style="color:#4FC3F7;">About This Repository</span>
 
 ⚡ This repository contains **Arduino Uno–based projects** focused on  
 **real-world applications**, **electronics fundamentals**, and **embedded systems learning**.
@@ -30,7 +36,7 @@
 
 ---
 
-## 🔧 About Arduino Uno
+## 🔧 <span style="color:#00E676;">About Arduino Uno</span>
 
 🟦 **Arduino Uno** is a widely used **open-source microcontroller development board**  
 based on the powerful **ATmega328P**.
@@ -45,7 +51,7 @@ embedded systems efficiently with minimal setup.
 
 ---
 
-### ⚙️ Key Highlights
+### ⚙️ <span style="color:#4FC3F7;">Key Highlights</span>
 
 - 🧠 **ATmega328P microcontroller**
 - 🔢 **14 Digital I/O pins** (6 PWM capable)
@@ -56,7 +62,7 @@ embedded systems efficiently with minimal setup.
 
 ---
 
-## 🚀 Why Arduino Uno?
+## 🚀 <span style="color:#00E676;">Why Arduino Uno?</span>
 
 Arduino Uno is widely used in:
 
@@ -72,5 +78,10 @@ through hands-on implementation.
 ---
 
 <p align="center">
-  ⚡ <i>Build. Break. Learn. Repeat.</i> ⚡
+  <span style="color:#4FC3F7;">⚡</span>
+  <i style="color:#00E676;">Build.</i>
+  <i style="color:#4FC3F7;">Break.</i>
+  <i style="color:#00E676;">Learn.</i>
+  <i style="color:#4FC3F7;">Repeat.</i>
+  <span style="color:#00E676;">⚡</span>
 </p>
