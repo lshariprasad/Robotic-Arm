@@ -1,91 +1,98 @@
-![Arduino](https://img.shields.io/badge/Arduino-Uno-blue?logo=arduino)
-![ESP32](https://img.shields.io/badge/ESP32-IoT-green)
-![IoT](https://img.shields.io/badge/IoT-Embedded-orange)
-![Language](https://img.shields.io/badge/Language-C%2FC%2B%2B-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+# 🔧 IoT LAB
 
-🔧 IoT LAB
-IoT LAB is a collection of real-world IoT and embedded system projects built using Arduino Uno and ESP32.
-The projects focus on practical applications such as automation, health monitoring, robotics, and sensor-based systems, helping learners understand hardware–software integration through hands-on implementation.
+> Build. Break. Learn. Repeat. 🔧⚡
 
-This repository is designed for students and beginners who want to learn by building, not just by reading.
+**IoT LAB** is a collection of real-world **IoT and embedded systems projects** built using **Arduino Uno and ESP32**.
+This repository focuses on practical applications such as **automation, health monitoring, robotics, and sensor-based systems**, helping learners understand **hardware–software integration** through hands-on implementation.
 
-🚀 Features
-Real-world IoT and embedded system projects
+---
 
-Arduino Uno and ESP32 based implementations
+## 🚀 Features
 
-Sensor interfacing and data handling
+* Real-world IoT and embedded system projects
+* Arduino Uno and ESP32 based implementations
+* Sensor interfacing and control logic
+* Practical electronics and automation concepts
+* Beginner-friendly and well-structured code
 
-Practical electronics and control logic
+---
 
-Beginner-friendly and well-structured projects
+## 🛠️ Technologies Used
 
-🛠️ Technologies Used
-Arduino Uno
+* Arduino Uno
+* ESP32
+* Embedded C / C++
+* Arduino IDE
+* Sensors & Actuators
 
-ESP32
+---
 
-Embedded C / C++
+## 📂 Project Structure
 
-Arduino IDE
-
-Sensors & Actuators
-
-📂 Project Structure
-pgsql
-Copy code
+```
 ├── Plant-Watering-System---ESP32
-│   └── Automatic plant watering using ESP32
+│   └── Automatic plant watering system using ESP32
 ├── Health monitoring system using arduino
 │   └── Health parameter monitoring project
 ├── RADAR with Arduino
 │   └── Radar system using Arduino and ultrasonic sensor
 ├── Robotic_Code_For_ArduinoUno.ino
-│   └── Basic robotic control code
+│   └── Robotic control using Arduino Uno
 ├── Transmission Line Fault Location with Distance Indication
 │   └── Power system fault detection project
 └── README.md
-▶️ How to Run the Projects (Using Arduino IDE)
-Clone the repository:
+```
 
-bash
-Copy code
+---
+
+## ▶️ How to Run the Projects (Using Arduino IDE)
+
+1. Clone the repository:
+
+```bash
 git clone https://github.com/lshariprasad/IoT-LAB.git
-Open Arduino IDE.
+```
 
-Connect your Arduino Uno / ESP32 to your system.
+2. Open **Arduino IDE**
+3. Connect your **Arduino Uno / ESP32** to your system
+4. Open the required project folder or `.ino` file
+5. Select the correct **Board** and **Port**
+6. Upload the code to the board
+7. Observe the output using sensors, LEDs, motors, or Serial Monitor
 
-Open the required project folder or .ino file.
+---
 
-Select the correct Board and Port.
+## 🎯 Project Objectives
 
-Upload the code to the board.
+* Learn IoT and embedded system fundamentals
+* Understand sensor interfacing and hardware–software integration
+* Gain hands-on experience with Arduino and ESP32
+* Build real-world engineering solutions
 
-Observe the output using sensors, LEDs, motors, or Serial Monitor.
+---
 
-🎯 Project Objective
-Learn IoT and embedded system fundamentals
+## 📌 Future Improvements
 
-Understand sensor interfacing and control logic
+* Add circuit diagrams for each project
+* Include demo videos or GIFs
+* Expand ESP32-based IoT applications
+* Add cloud integration (Firebase / MQTT)
+* Improve documentation and code comments
 
-Gain hands-on experience with Arduino and ESP32
+---
 
-Build real-world engineering solutions
+## 👨‍💻 Author
 
-📌 Future Improvements
-Add circuit diagrams for each project
+**Name:** lshariprasad
+**Project Type:** IoT & Embedded Systems Projects
 
-Include project demo videos
+---
 
-Expand ESP32-based IoT applications
+## 📜 License
 
-Add cloud integration (Firebase / MQTT)
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for more details.
 
-Improve documentation and comments
+---
 
-👨‍💻 Author
-Name: lshariprasad
-Project Type: IoT & Embedded Systems Projects
-
-⭐ If you find this repository useful, don’t forget to star it and share it!
+⭐ If you find this repository useful, don’t forget to **star it** and share it!
