@@ -1,7 +1,6 @@
 # 🔧 IoT LAB
 
 > Build. Break. Learn. Repeat. 🔧⚡
-
 **IoT LAB** is a collection of real-world **IoT and embedded systems projects** built using **Arduino Uno and ESP32**.
 This repository focuses on practical applications such as **automation, health monitoring, robotics, and sensor-based systems**, helping learners understand **hardware–software integration** through hands-on implementation.
 
