@@ -44,29 +44,31 @@ pip install pyserial
 <img width="300" height="800" alt="image" src="https://github.com/user-attachments/assets/62e016bf-0f2a-4715-bea8-367bd3dc323f" />
 
 
-arduino_code/: Contains the .ino file for the Arduino Uno.
 
-python_script/: Contains the Python script to read serial data and save to CSV.
 
-attendance.csv: The file where attendance records are stored.
+3. arduino_code/: Contains the .ino file for the Arduino Uno.
+
+4. python_script/: Contains the Python script to read serial data and save to CSV.
+
+5. attendance.csv: The file where attendance records are stored.
 
 📝 How to Use
-Connect your Arduino Uno to your computer via USB.
+1. Connect your Arduino Uno to your computer via USB.
 
-Upload the Arduino code using the Arduino IDE.
+2. Upload the Arduino code using the Arduino IDE.
 
-Note the COM Port (e.g., COM3 on Windows or /dev/ttyACM0 on Linux).
+3. Note the COM Port (e.g., COM3 on Windows or /dev/ttyACM0 on Linux).
 
-Update the Python Script with your specific COM port.
+4. Update the Python Script with your specific COM port.
 
-Run the Python script:
+5. Run the Python script:
 
 Bash
 ```
 python main.py
 ```
 
-Scan an RFID tag; the system will display the user info and save it to the log.
+6. Scan an RFID tag; the system will display the user info and save it to the log.
 
 📊 Sample Data Output
 The attendance is saved in the following format:
