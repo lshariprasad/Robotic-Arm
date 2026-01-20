@@ -27,24 +27,6 @@ This repository focuses on practical applications such as **automation, health m
 
 ---
 
-## 📂 Project Structure
-
-```
-├── Plant-Watering-System---ESP32
-│   └── Automatic plant watering system using ESP32
-├── Health monitoring system using arduino
-│   └── Health parameter monitoring project
-├── RADAR with Arduino
-│   └── Radar system using Arduino and ultrasonic sensor
-├── Robotic_Code_For_ArduinoUno.ino
-│   └── Robotic control using Arduino Uno
-├── Transmission Line Fault Location with Distance Indication
-│   └── Power system fault detection project
-└── README.md
-```
-
----
-
 ## ▶️ How to Run the Projects (Using Arduino IDE)
 
 1. Clone the repository:
