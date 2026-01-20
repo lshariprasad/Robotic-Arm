@@ -1,4 +1,6 @@
-RFID Attendance Marking System
+RFID Attendance Marking System :
+
+
 🌟 A Python and Arduino-based system that automates attendance tracking using MFRC522 RFID technology. This project scans RFID tags, identifies the user, and logs the attendance with a timestamp into a CSV file or database.
 
 🚀 Features
