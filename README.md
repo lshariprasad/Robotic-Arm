@@ -1,4 +1,4 @@
-# 🔧 IoT LAB
+# 🔧 Internet Of Things - Lab Based Project
 
 > Build. Break. Learn. Repeat. 🔧⚡
 
