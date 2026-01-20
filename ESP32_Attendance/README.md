@@ -1,25 +1,25 @@
 RFID Attendance Marking System
-A Python and Arduino-based system that automates attendance tracking using MFRC522 RFID technology. This project scans RFID tags, identifies the user, and logs the attendance with a timestamp into a CSV file or database.
+🌟 A Python and Arduino-based system that automates attendance tracking using MFRC522 RFID technology. This project scans RFID tags, identifies the user, and logs the attendance with a timestamp into a CSV file or database.
 
 🚀 Features
-Real-time Scanning: Instantly reads RFID tags and validates IDs.
+1. Real-time Scanning: Instantly reads RFID tags and validates IDs.
 
-Automated Logging: Saves attendance data (Name, Date, Time) automatically.
+2. Automated Logging: Saves attendance data (Name, Date, Time) automatically.
 
-User-Friendly: Simple Python interface to monitor scans.
+3. User-Friendly: Simple Python interface to monitor scans.
 
-Hardware Integration: Uses Arduino Uno for reliable sensor data collection.
+4. Hardware Integration: Uses Arduino Uno for reliable sensor data collection.
 
 🛠 Hardware Required
-Arduino Uno
+1. Arduino Uno
 
-MFRC522 RFID Module
+2. MFRC522 RFID Module
 
-RFID Tags/Cards
+3. RFID Tags/Cards
 
-Jumper Wires
+4. Jumper Wires
 
-USB Cable (for connecting Arduino to PC)
+5. USB Cable (for connecting Arduino to PC)
 
 💻 Software Setup
 1. Arduino Environment
