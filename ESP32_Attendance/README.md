@@ -39,9 +39,9 @@ pip install pyserial
 
 📁 Project Structure
 
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/4325a8cf-683d-4e11-9564-14d2b4f68790" />
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/eaf7f287-435e-4f07-85b0-003ef82afd06" />
-<img width="900" height="1600" alt="image" src="https://github.com/user-attachments/assets/62e016bf-0f2a-4715-bea8-367bd3dc323f" />
+<img width="300" height="800" alt="image" src="https://github.com/user-attachments/assets/4325a8cf-683d-4e11-9564-14d2b4f68790" />
+<img width="300" height="800" alt="image" src="https://github.com/user-attachments/assets/eaf7f287-435e-4f07-85b0-003ef82afd06" />
+<img width="300" height="800" alt="image" src="https://github.com/user-attachments/assets/62e016bf-0f2a-4715-bea8-367bd3dc323f" />
 
 
 arduino_code/: Contains the .ino file for the Arduino Uno.
