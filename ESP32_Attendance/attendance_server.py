@@ -7,28 +7,42 @@ app = Flask(__name__)
 
 FILE = "attendance.xlsx"
 
-# Create or open Excel file
+# ---------- UID TO STUDENT MAPPING ----------
+students = {
+    "3017b120": (1, "VIJAY ANAND", "EEE"),
+    "11e5d51d": (2, "SATHISH", "EEE"),
+    "e336f62e": (3, "GURU PRASAD", "EEE"),
+    "d3e1112e": (4, "HARI PRASAD", "EEE"),
+}
+
+# ---------- Create or Open Excel ----------
 if os.path.exists(FILE):
     wb = load_workbook(FILE)
     ws = wb.active
 else:
     wb = Workbook()
     ws = wb.active
-    ws.append(["UID", "Date", "Time"])
+    ws.append(["SNO", "NAME", "DEPARTMENT", "DATE", "TIME"])
     wb.save(FILE)
 
 @app.route('/mark', methods=['GET'])
 def mark():
-    uid = request.args.get('uid')
+    uid = request.args.get('uid').lower()
+
+    if uid not in students:
+        print("Unknown Card:", uid)
+        return "UNKNOWN CARD"
+
+    sno, name, dept = students[uid]
 
     now = datetime.now()
     date = now.strftime("%Y-%m-%d")
     time = now.strftime("%H:%M:%S")
 
-    ws.append([uid, date, time])
+    ws.append([sno, name, dept, date, time])
     wb.save(FILE)
 
-    print("Attendance Marked:", uid, date, time)
+    print(f"Attendance Marked: {sno}, {name}, {dept}, {date}, {time}")
     return "OK"
 
 if __name__ == "__main__":
