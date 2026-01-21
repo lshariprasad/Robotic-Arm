@@ -19,18 +19,25 @@ The system hosts a **local web server** on ESP32. From any mobile connected to t
 All actions are displayed in real-time on the OLED screen.
 ---
 
-# 🖼️ Picture :
+## 🖼️ Picture : Real-Time Project
+
+# InterFace : 
+
+![WhatsApp Image 2026-01-21 at 10 32 45 AM (1)](https://github.com/user-attachments/assets/1afa4a1c-5d49-4633-bb4a-5ca46a7e17e5)
+
+# Hardware
 
 ![WhatsApp Image 2026-01-21 at 10 32 45 AM](https://github.com/user-attachments/assets/351ef9ac-2e80-4f2a-b249-b92187413192)
 
 ![WhatsApp Image 2026-01-21 at 10 32 45 AM](https://github.com/user-attachments/assets/50956882-6293-43cb-ab29-c5d0969af4d6)
 
-![WhatsApp Image 2026-01-21 at 10 32 45 AM](https://github.com/user-attachments/assets/3698bd33-4e41-4288-a3af-64eabffa2364)
-
 ![WhatsApp Image 2026-01-21 at 10 32 46 AM (1)](https://github.com/user-attachments/assets/a612c2a0-2eb6-4da4-82a9-fd96cb856c7e)
 
 ![WhatsApp Image 2026-01-21 at 10 32 46 AM](https://github.com/user-attachments/assets/f0d6cd70-d05b-4c3b-919b-3684ab3ae0eb)
 
+![WhatsApp Image 2026-01-21 at 10 51 42 AM](https://github.com/user-attachments/assets/79d63bcd-79dc-4024-9ae9-504f0f5659bd)
+
+![WhatsApp Image 2026-01-21 at 10 51 42 AM](https://github.com/user-attachments/assets/b217be79-71b0-41e1-99eb-ed701f2d6d57)
 
 ---
 
@@ -49,45 +56,61 @@ All actions are displayed in real-time on the OLED screen.
 
 ---
 
-## 🔌 Pin Connections
+## 🔌 ESP32 PIN ASSIGNMENT (FINAL)
 
-### Power
+| Device       | Function          | ESP32 Pin   |
+| ------------ | ----------------- | ----------- |
+| 💡 LED       | Light Control     | **GPIO 2**  |
+| ⚙️ Relay IN  | Motor/Fan Control | **GPIO 26** |
+| 📟 OLED SDA  | I2C Data          | **GPIO 21** |
+| 📟 OLED SCL  | I2C Clock         | **GPIO 22** |
+| 🔋 OLED VCC  | Power             | **3V3**     |
+| 🔋 Relay VCC | Power             | **5V**      |
+| ⚡ All GND    | Common Ground     | **GND**     |
 
-* ESP32 **3V3** → Breadboard +
-* ESP32 **GND** → Breadboard –
+🧩 DETAILED CONNECTION TABLE
 
-### LED
+1️⃣ LED : 
 
-* ESP32 **GPIO 2** → 220Ω Resistor → LED +
-* LED – → GND
+| From             | To              |
+| ---------------- | --------------- |
+| ESP32 **GPIO 2** | → 220Ω Resistor |
+| Resistor         | → LED (+)       |
+| LED (–)          | → **GND**       |
 
-### Relay (Control Side)
 
-* Relay **IN**  → ESP32 **GPIO 26**
-* Relay **VCC** → **5V**
-* Relay **GND** → **GND**
+2️⃣ Relay (Control Side) :
 
-### Relay (Power Side, NO Mode)
+| Relay Pin | ESP32       |
+| --------- | ----------- |
+| **IN**    | **GPIO 26** |
+| **VCC**   | **5V**      |
+| **GND**   | **GND**     |
 
-Relay terminal order:
+3️⃣ Relay (Power Side – NO Mode)
+Relay terminals order:
 
-```
 [ NO ] [ COM ] [ NC ]
-```
 
-Connections:
+| From           | To                 |
+| -------------- | ------------------ |
+| Battery +      | → **COM (Middle)** |
+| **NO (Left)**  | → Motor +          |
+| Motor –        | → Battery –        |
+| **NC (Right)** | ❌ Not used        |
 
-* Battery + → **COM** (middle)
-* **NO** (left) → Motor +
-* Motor – → Battery –
-* **NC** → Not used
 
-### OLED (I2C)
+4️⃣ OLED Display (I2C)
 
-* OLED **VCC** → ESP32 **3V3**
-* OLED **GND** → ESP32 **GND**
-* OLED **SDA** → ESP32 **GPIO 21**
-* OLED **SCL** → ESP32 **GPIO 22**
+| OLED Pin | ESP32 Pin   |
+| -------- | ----------- |
+| **VCC**  | **3V3**     |
+| **GND**  | **GND**     |
+| **SDA**  | **GPIO 21** |
+| **SCL**  | **GPIO 22** |
+
+
+
 
 ---
 
