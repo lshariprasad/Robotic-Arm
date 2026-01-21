@@ -210,7 +210,7 @@ This method is reliable and works on all phones.
 
 ## 📄 Example Project Description (For Report)
 
-> "This project implements a Smart IoT Control System using ESP32. The system allows users to control a light and a DC motor through a web interface and voice commands. The ESP32 hosts a local web server, and users send commands using a mobile browser. Voice commands are converted into text using the mobile keyboard and processed by the ESP32. An OLED display shows real-time device status. This project demonstrates IoT, embedded systems, and human-machine interaction."
+> This project implements a Smart IoT Control System using ESP32. The system allows users to control a light and a DC motor through a web interface and voice commands. The ESP32 hosts a local web server, and users send commands using a mobile browser. Voice commands are converted into text using the mobile keyboard and processed by the ESP32. An OLED display shows real-time device status. This project demonstrates IoT, embedded systems, and human-machine interaction. 
 
 ---
 
