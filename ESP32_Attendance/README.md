@@ -49,6 +49,93 @@ ESP32  ──── WiFi ────> PC / Server (Python Script)
  Buzzer
 
 ---
+🟢 1️⃣ ESP32 ↔ RFID RC522 CONNECTIONS :
+
+| RC522 Pin | ESP32 Pin | Purpose          |
+| --------- | --------- | ---------------- |
+| SDA       | GPIO 5    | SS (Chip Select) |
+| SCK       | GPIO 18   | SPI Clock        |
+| MOSI      | GPIO 23   | SPI MOSI         |
+| MISO      | GPIO 19   | SPI MISO         |
+| RST       | GPIO 22   | Reset            |
+| 3.3V      | 3.3V      | Power            |
+| GND       | GND       | Ground           |
+
+🟢 2️⃣ ESP32 ↔ LCD I2C (16x2, Address 0x27) :
+
+| LCD Pin | ESP32 Pin | Purpose   |
+| ------- | --------- | --------- |
+| VCC     | 5V (VIN)  | Power     |
+| GND     | GND       | Ground    |
+| SDA     | GPIO 21   | I2C Data  |
+| SCL     | GPIO 22   | I2C Clock |
+
+🟢 3️⃣ ESP32 ↔ BUZZER CONNECTION : 
+
+| Buzzer Pin | ESP32 Pin | Purpose |
+| ---------- | --------- | ------- |
+| + (VCC)    | GPIO 27   | Control |
+| - (GND)    | GND       | Ground  |
+
+🟢 4️⃣ POWER CONNECTION SUMMARY : 
+
+| Device | Power Pin | ESP32 Pin |
+| ------ | --------- | --------- |
+| RFID   | VCC       | 3.3V      |
+| LCD    | VCC       | 5V (VIN)  |
+| Buzzer | +         | GPIO 27   |
+| All    | GND       | GND       |
+
+🟢 5️⃣ PIN DEFINITIONS USED IN YOUR CODE :
+
+#define SS_PIN 5        // RFID SDA
+#define RST_PIN 22     // RFID RST
+
+#define BUZZER_PIN 27  // Buzzer
+
+// I2C default
+SDA -> GPIO 21
+SCL -> GPIO 22
+
+🟢 6️⃣ SIMPLE TEXT DIAGRAM (For Your Report) 
+
+RFID RC522        ESP32
+-----------      ------
+SDA   ---------- GPIO 5
+SCK   ---------- GPIO 18
+MOSI  ---------- GPIO 23
+MISO  ---------- GPIO 19
+RST   ---------- GPIO 22
+3.3V  ---------- 3.3V
+GND   ---------- GND
+
+
+LCD I2C          ESP32
+-------         ------
+VCC   ---------- 5V
+GND   ---------- GND
+SDA   ---------- GPIO 21
+SCL   ---------- GPIO 22
+
+
+Buzzer           ESP32
+------           ------
++     ---------- GPIO 27
+-     ---------- GND
+
+🟢 7️⃣ VERY IMPORTANT FINAL CHECK
+Before submission, verify:
+
+RFID powered from 3.3V only
+
+LCD shows text when powered
+
+Buzzer beeps on scan
+
+All GND connected together
+
+
+---
 
 ## 🖼️ Picture :
 ![WhatsApp Image 2026-01-21 at 8 53 46 AM](https://github.com/user-attachments/assets/af1baa00-2d59-44d7-9fcd-2309c6d7923a)
@@ -142,6 +229,4 @@ Give a ⭐ star on GitHub and feel free to fork and improve it!
 
 
 
-
-## 🏗️ System Architecture
 
