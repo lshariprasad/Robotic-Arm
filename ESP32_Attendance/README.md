@@ -86,44 +86,8 @@ ESP32  ──── WiFi ────> PC / Server (Python Script)
 | Buzzer | +         | GPIO 27   |
 | All    | GND       | GND       |
 
-🟢 5️⃣ PIN DEFINITIONS USED IN YOUR CODE :
 
-#define SS_PIN 5        // RFID SDA
-#define RST_PIN 22     // RFID RST
-
-#define BUZZER_PIN 27  // Buzzer
-
-// I2C default
-SDA -> GPIO 21
-SCL -> GPIO 22
-
-🟢 6️⃣ SIMPLE TEXT DIAGRAM (For Your Report) 
-
-RFID RC522        ESP32
------------      ------
-SDA   ---------- GPIO 5
-SCK   ---------- GPIO 18
-MOSI  ---------- GPIO 23
-MISO  ---------- GPIO 19
-RST   ---------- GPIO 22
-3.3V  ---------- 3.3V
-GND   ---------- GND
-
-
-LCD I2C          ESP32
--------         ------
-VCC   ---------- 5V
-GND   ---------- GND
-SDA   ---------- GPIO 21
-SCL   ---------- GPIO 22
-
-
-Buzzer           ESP32
-------           ------
-+     ---------- GPIO 27
--     ---------- GND
-
-🟢 7️⃣ VERY IMPORTANT FINAL CHECK
+🟢 5️⃣ VERY IMPORTANT FINAL CHECK
 Before submission, verify:
 
 RFID powered from 3.3V only
