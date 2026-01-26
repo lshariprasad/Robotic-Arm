@@ -112,7 +112,7 @@ http://<ESP32-IP-ADDRESS>
 ---
 ## Pictures 🖼️
 
-![WhatsApp Image 2026-01-26 at 6 58 16 AM](https://github.com/user-attachments/assets/ff88221c-bfce-4adc-b7a5-551c07dba856)
+![WhatsApp Image 2026-01-26 at 7 14 36 AM](https://github.com/user-attachments/assets/e6a07368-a829-4c07-8f78-67d2a281427b)
 
 
 ![WhatsApp Image 2026-01-26 at 7 10 13 AM](https://github.com/user-attachments/assets/aba0b713-8361-4029-bf8d-06233ef6e26f)
