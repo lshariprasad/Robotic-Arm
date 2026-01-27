@@ -1,0 +1,147 @@
+#include <WiFi.h>
+#include <WebServer.h>
+#include "DHT.h"
+
+#define PIR_PIN     13
+#define GAS_PIN     14
+#define FIRE_PIN    27
+#define DHT_PIN     4
+#define RELAY_PIN   26
+
+#define DHTTYPE DHT11   // or DHT22
+
+DHT dht(DHT_PIN, DHTTYPE);
+WebServer server(80);
+
+// --------- WiFi Credentials ----------
+const char* ssid = "ENTER YOUR WIFI NAME";
+const char* password = "ENTER YOUR WIFI PASSWORD";
+
+// --------- Variables ----------
+bool manualControl = false;   // false = auto mode, true = manual mode
+bool relayState = false;
+
+// --------- Web Page ----------
+String webpage() {
+  int motion = digitalRead(PIR_PIN);
+  int gas    = digitalRead(GAS_PIN);
+  int fire   = digitalRead(FIRE_PIN);
+  float humidity = dht.readHumidity();
+
+  String html = "<!DOCTYPE html><html><head>";
+  html += "<meta name='viewport' content='width=device-width, initial-scale=1'>";
+  html += "<style>";
+  html += "body{font-family:Arial;text-align:center;background:#f2f2f2;}";
+  html += ".card{background:white;padding:20px;margin:10px;border-radius:10px;box-shadow:0 0 10px rgba(0,0,0,0.2);}";
+  html += "button{padding:15px 30px;font-size:18px;margin:10px;}";
+  html += "</style></head><body>";
+
+  html += "<h2>ESP32 Smart Home Automation</h2>";
+
+  html += "<div class='card'>";
+  html += "<p>Motion Sensor: " + String(motion ? "DETECTED" : "NO") + "</p>";
+  html += "<p>Gas Sensor: " + String(gas ? "DETECTED" : "NO") + "</p>";
+  html += "<p>Fire Sensor: " + String(fire ? "DETECTED" : "NO") + "</p>";
+  html += "<p>Humidity: " + String(humidity) + " %</p>";
+  html += "</div>";
+
+  html += "<div class='card'>";
+  html += "<p>Relay (Bulb): " + String(relayState ? "ON" : "OFF") + "</p>";
+  html += "<a href='/on'><button>Turn OFF</button></a>";
+  html += "<a href='/off'><button>Turn ON</button></a>";
+  html += "<a href='/auto'><button>Auto Mode</button></a>";
+  html += "</div>";
+
+  html += "</body></html>";
+
+  return html;
+}
+
+// --------- Handle Root ----------
+void handleRoot() {
+  server.send(200, "text/html", webpage());
+}
+
+// --------- Manual ON ----------
+void handleOn() {
+  manualControl = true;
+  relayState = true;
+  digitalWrite(RELAY_PIN, HIGH);
+  server.send(200, "text/html", webpage());
+}
+
+// --------- Manual OFF ----------
+void handleOff() {
+  manualControl = true;
+  relayState = false;
+  digitalWrite(RELAY_PIN, LOW);
+  server.send(200, "text/html", webpage());
+}
+
+// --------- Auto Mode ----------
+void handleAuto() {
+  manualControl = false;
+  server.send(200, "text/html", webpage());
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  pinMode(PIR_PIN, INPUT);
+  pinMode(GAS_PIN, INPUT);
+  pinMode(FIRE_PIN, INPUT);
+  pinMode(RELAY_PIN, OUTPUT);
+
+  digitalWrite(RELAY_PIN, LOW);
+
+  dht.begin();
+
+  // --------- WiFi Connect ----------
+  WiFi.begin(ssid, password);
+  Serial.print("Connecting to WiFi");
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+
+  Serial.println("\nWiFi Connected!");
+  Serial.print("ESP32 IP Address: ");
+  Serial.println(WiFi.localIP());
+
+  // --------- Web Server Routes ----------
+  server.on("/", handleRoot);
+  server.on("/on", handleOn);
+  server.on("/off", handleOff);
+  server.on("/auto", handleAuto);
+
+  server.begin();
+  Serial.println("Web Server Started");
+}
+
+void loop() {
+  server.handleClient();
+
+  // --------- Auto Mode Logic ----------
+  if (!manualControl) {
+    int motion = digitalRead(PIR_PIN);
+    int gas    = digitalRead(GAS_PIN);
+    int fire   = digitalRead(FIRE_PIN);
+    float humidity = dht.readHumidity();
+
+    bool trigger = false;
+
+    if (motion == HIGH) trigger = true;
+    if (gas == HIGH) trigger = true;
+    if (fire == HIGH) trigger = true;
+    if (humidity > 70) trigger = true;   // threshold
+
+    if (trigger) {
+      relayState = true;
+      digitalWrite(RELAY_PIN, HIGH);
+    } else {
+      relayState = false;
+      digitalWrite(RELAY_PIN, LOW);
+    }
+  }
+}
