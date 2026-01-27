@@ -114,8 +114,21 @@ http://<ESP32-IP-ADDRESS>
 
 ![WhatsApp Image 2026-01-26 at 7 14 36 AM](https://github.com/user-attachments/assets/e6a07368-a829-4c07-8f78-67d2a281427b)
 
+![WhatsApp Image 2026-01-27 at 11 19 07 PM (1)](https://github.com/user-attachments/assets/70829c3c-ecc0-4915-aefa-b78c0e839bcb)
+
+![WhatsApp Image 2026-01-27 at 11 19 07 PM (2)](https://github.com/user-attachments/assets/5377bcfe-4263-419b-b950-98b9666703f0)
+
+![WhatsApp Image 2026-01-27 at 11 19 07 PM (1)](https://github.com/user-attachments/assets/61cdd869-574b-4735-a04d-256affa5d34f)
+
+![WhatsApp Image 2026-01-27 at 11 51 01 PM](https://github.com/user-attachments/assets/33892174-e6f1-4d41-afd7-854214709ef6)
 
 ![WhatsApp Image 2026-01-26 at 7 10 13 AM](https://github.com/user-attachments/assets/aba0b713-8361-4029-bf8d-06233ef6e26f)
+
+
+## Finally Updated Version : 
+
+![WhatsApp Image 2026-01-27 at 11 48 35 PM](https://github.com/user-attachments/assets/6eaac656-f630-4ffa-83cc-7d563d82538f)
+
 
 
 
