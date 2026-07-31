@@ -166,6 +166,11 @@ Door Closing
 Door Locked
 ```
 
+## Photo 🌌
+
+<img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/81d7d78a-ee1a-4a8b-a09f-e7ff5dbf7b46" />
+
+
 ## 💡 Future Improvements
 
 - Fingerprint authentication
